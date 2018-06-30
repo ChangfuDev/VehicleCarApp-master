@@ -1,0 +1,39 @@
+//noinspection GradleCompatible
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 27
+    defaultConfig {
+        applicationId "com.example.bofa.vehicle_car_auto"
+        minSdkVersion 21
+        targetSdkVersion 27
+        versionCode 1
+        versionName "1.0"
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    implementation 'com.android.volley:volley:1.0.0'
+    implementation 'com.android.support:design:27.1.1'
+    implementation 'com.beardedhen:androidbootstrap:2.3.2'
+    implementation 'de.hdodenhof:circleimageview:2.2.0'
+    implementation 'com.android.support:cardview-v7:27.1.1'
+    implementation 'com.github.apl-devs:appintro:v4.2.3'
+    implementation 'com.scwang.wave:MultiWaveHeader:1.0.0-alpha-1'
+    implementation 'com.github.lecho:hellocharts-library:1.5.8@aar'
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
+    implementation 'com.android.support:appcompat-v7:27.1.0'
+    implementation 'com.android.support.constraint:constraint-layout:1.1.0'
+    testImplementation 'junit:junit:4.12'
+    androidTestImplementation 'com.android.support.test:runner:1.0.2'
+    androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
+    implementation files('libs/com.baidu.tts_2.3.1.20170808_e39ea89.jar')
+    implementation 'info.hoang8f:fbutton:1.0.5'
+}

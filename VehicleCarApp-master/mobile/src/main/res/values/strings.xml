@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Vehicle_Car</string>
+    <string name="xinlv">心率:%1$d</string>
+    <string name="tiwen">体温:%1$.1f</string>
+    <string name="tts_hr_fea1">您当前的心率过低，请注意不要疲劳驾驶</string>
+    <string name="tts_hr_fea2">您当前的心率过高，正在为您通知应急联系人</string>
+    <string name="tts_hr_fea3">您当前的心率过高，正在为您通知应急联系人</string>
+    <string name="tts_hr_fea4">您当前的心率过高，正在为您通知应急联系人</string>
+
+    <string name="tts_tem_fea1">您当前的体温过低，请注意不要疲劳驾驶</string>
+    <string name="tts_tem_fea2">您当前的体温过高，正在为您通知应急联系人</string>
+    <string name="tts_tem_fea3">您当前的体温过高，正在为您通知应急联系人</string>
+    <string name="tts_tem_fea4">您当前的体温过高，正在为您通知应急联系人</string>
+
+    <string name="app_intro">AppIntro</string>
+    <string name="select_user">请选择用户</string>
+    <string name="current_user">当前用户</string>
+    <string name="heartrate">心率</string>
+    <string name="temperature">体温</string>
+    <string name="history">历史趋势分析</string>
+</resources>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:snser="http://schemas.android.com/tools"
+    android:gravity="center"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <android.support.v7.widget.CardView
+        android:id="@+id/cardview"
+        android:layout_width="180dp"
+        android:layout_height="180dp"
+        android:layout_marginTop="115dp"
+        android:layout_marginLeft="75dp"
+        android:focusable="true"
+        android:clickable="true"
+        android:foreground="@drawable/cardview_selector"
+        app:cardElevation="20dp"
+        app:cardBackgroundColor="@color/white"
+        app:cardCornerRadius="90dp"
+        app:cardPreventCornerOverlap="true">
+        <TextView
+            android:id="@+id/xinlv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="30dp"
+            android:textColor="@color/circle_wave"
+            android:textSize="24dp"
+            android:gravity="center"/>
+        <com.scwang.wave.MultiWaveHeader
+            android:layout_marginTop="75dp"
+            android:id="@+id/waveHeader"
+            android:layout_width="200dp"
+            android:scaleY="-1"
+            android:layout_height="200dp"
+            app:mwhColorAlpha="0.4"
+            app:mwhWaveHeight="30dp"
+            app:mwhStartColor="@color/circle_wave"
+            app:mwhCloseColor="@color/circle_wave_light"/>
+        <TextView
+            android:id="@+id/tiwen"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="115dp"
+            android:textSize="24dp"
+            android:textColor="@color/white"
+            android:gravity="center"/>
+    </android.support.v7.widget.CardView>
+
+    <include layout="@layout/ring"/>
+</RelativeLayout>
